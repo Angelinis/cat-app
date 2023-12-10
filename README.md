@@ -1,0 +1,52 @@
+# Cat - App
+
+## What is this?
+
+“Cat app” is an application to create and save randomly generated apps.
+
+The project is based on React Native.
+
+![homepage](https://raw.githubusercontent.com/Angelinis/React-Native-Gerador/main/src/assets/screen_1.jpeg)
+
+![details1](https://raw.githubusercontent.com/Angelinis/React-Native-Gerador/main/src/assets/screen_2.jpeg)
+
+![details2](https://raw.githubusercontent.com/Angelinis/React-Native-Gerador/main/src/assets/screen_3.jpeg)
+
+![details3](https://raw.githubusercontent.com/Angelinis/React-Native-Gerador/main/src/assets/screen_4.jpeg)
+
+## React Native + Libraries
+
+This app uses the next libraries:
+
+- @Expo for learning and experimenting with React Native on Android
+- @react-native-community/slider for importing Slider components
+- @react-navigation/bottom-tabs for creating a bottom interactable menu bar
+- @react-navigation/native for navigating between tabs
+- expo-clipboard for using the cellphone feature of copying in clipboard
+- @react-native-async-storage/async-storage for saving information locally in the app
+
+## Getting Started
+
+After you have cloned this repo, run this setup script to set up your machine
+with the necessary dependencies to run and test this app:
+
+    npm install
+
+Finally run the server using:
+
+    npx expo start --tunnel
+
+Please, make sure to have the Expo application in your cellphone. Also, your machine and your cellphone should be connected to the same wifi network.
+
+If you want to learn more about `Expo`, see [the guidelines][expo].
+
+[expo]: https://docs.expo.dev/get-started/expo-go/
+
+## Contributions
+
+My goal is to keep creating more applications to keep practicing. Please let
+me know if you have any feedback.
+
+That said, if you find a bug, please do open an issue!
+
+## Credits
